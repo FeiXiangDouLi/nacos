@@ -1,0 +1,18 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: demo-hlx
+  cloud:
+    nacos:
+      config:
+        server-addr: 10.58.0.15:8848
+        namespace: dev
+        username: cmp-admin
+        password: cmp-nacos
+        prefix: demo
+      discovery:
+        server-addr: 10.58.0.15:8848
+        namespace: dev
+        username: cmp-admin
+        password: cmp-nacos
