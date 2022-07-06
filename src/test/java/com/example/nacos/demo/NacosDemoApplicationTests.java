@@ -7,6 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class NacosDemoApplicationTests {
 
     @Test
-    void contextLoads() {}
+    void contextLoads() {
+        System.err.println("=====");
+    }
 
 }
